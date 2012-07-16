@@ -10,6 +10,8 @@
 		10721F0B144FC7260027FD31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10721F0A144FC7260027FD31 /* Foundation.framework */; };
 		10721F0E144FC7260027FD31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10721F0D144FC7260027FD31 /* main.m */; };
 		10721F12144FC7260027FD31 /* temp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 10721F11144FC7260027FD31 /* temp.1 */; };
+		10721F1A144FC8410027FD31 /* FlagProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10721F19144FC8410027FD31 /* FlagProcessor.m */; };
+		10721F29144FD3190027FD31 /* Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = 10721F28144FD3190027FD31 /* Temperature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +31,12 @@
 		10721F06144FC7260027FD31 /* temp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = temp; sourceTree = BUILT_PRODUCTS_DIR; };
 		10721F0A144FC7260027FD31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10721F0D144FC7260027FD31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		10721F10144FC7260027FD31 /* temp-Prefix.pch */ = {isa = PBXFileReference; path = "temp-Prefix.pch"; sourceTree = "<group>"; };
+		10721F10144FC7260027FD31 /* temp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "temp-Prefix.pch"; sourceTree = "<group>"; };
 		10721F11144FC7260027FD31 /* temp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = temp.1; sourceTree = "<group>"; };
+		10721F18144FC8410027FD31 /* FlagProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagProcessor.h; sourceTree = "<group>"; };
+		10721F19144FC8410027FD31 /* FlagProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagProcessor.m; sourceTree = "<group>"; };
+		10721F27144FD3190027FD31 /* Temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temperature.h; sourceTree = "<group>"; };
+		10721F28144FD3190027FD31 /* Temperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temperature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				10721F0D144FC7260027FD31 /* main.m */,
+				10721F27144FD3190027FD31 /* Temperature.h */,
+				10721F28144FD3190027FD31 /* Temperature.m */,
+				10721F18144FC8410027FD31 /* FlagProcessor.h */,
+				10721F19144FC8410027FD31 /* FlagProcessor.m */,
 				10721F11144FC7260027FD31 /* temp.1 */,
 				10721F0F144FC7260027FD31 /* Supporting Files */,
 			);
@@ -136,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				10721F0E144FC7260027FD31 /* main.m in Sources */,
+				10721F1A144FC8410027FD31 /* FlagProcessor.m in Sources */,
+				10721F29144FD3190027FD31 /* Temperature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +236,7 @@
 				10721F17144FC7260027FD31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
